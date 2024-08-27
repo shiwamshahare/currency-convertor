@@ -22,12 +22,7 @@ const Layout = () => {
   };
   return (
     <>
-      <div
-        className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
-        style={{
-          backgroundImage: `url('https://assets.weforum.org/article/image/responsive_big_webp_bry8qiv7zie_lykFn4s1EHOtUjF_VZMRDwZFDiVL0Us.webp')`,
-        }}
-      >
+      <div className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-slate-400 bg-no-repeat">
         <div className="w-full">
           <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
             <form
